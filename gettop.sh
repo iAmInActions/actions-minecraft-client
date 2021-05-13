@@ -2,4 +2,4 @@
 cd /root
 
 # Launch script goes here:
-wget https://raw.githubusercontent.com/iAmInActions/UsefullScripts/main/webdesktop.sh && chmod +x ./webdesktop.sh && ./webdesktop.sh
+wget https://raw.githubusercontent.com/ayunami2000/play-with-docker-novnc/main/ubuntu_minecraft_launcher.sh && chmod +x ./ubuntu_minecraft_launcher.sh && ./ubuntu_minecraft_launcher.sh
