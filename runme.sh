@@ -9,7 +9,8 @@ sudo apt install nodejs npm wget nano git lua5.3
 
 # Forward ports
 sudo npm install -g localtunnel
-sudo lt --port 80 --subdomain actions-minecraft-client &
+sudo chmod +x ./forward.sh
+sudo ./forward.sh &
 
 # Start this code automatically:
 chmod +x ./gettop.sh
