@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Wait a few seconds
-        run: bash sleep 10
+        run: sleep 10
 
       - name: Run Playground
         run: bash runme.sh
