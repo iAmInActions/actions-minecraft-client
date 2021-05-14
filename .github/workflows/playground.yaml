@@ -1,4 +1,4 @@
-name: Playground
+name: Minecraft Client
 on:
   push:
     branches:
@@ -16,11 +16,15 @@ jobs:
         uses: styfle/cancel-workflow-action@0.9.0
         with:
           access_token: ${{ github.token }}
+
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
       - uses: actions/checkout@v2
-          
+
+      - name: Wait a few seconds
+        run: bash sleep 10
+
       - name: Run Playground
         run: bash runme.sh
       
