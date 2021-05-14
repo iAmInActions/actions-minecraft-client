@@ -14,4 +14,4 @@ Just click this link: https://actions-minecraft-client.loca.lt/vnc.html
 **Warning: if you don't do this, your fork will NOT work and prevent this one from working.**
 
 # How to manually run this for testing?
-Simply edit ***This!*** line.
+Simply edit ***This*** line.
