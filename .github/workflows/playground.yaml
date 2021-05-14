@@ -2,7 +2,10 @@ name: Minecraft Client
 on:
   schedule:
     - cron: '0 */6 * * *'
-      
+  push:
+    branches:
+      - main
+
 jobs:
   setup:
     runs-on: ubuntu-20.04
