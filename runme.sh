@@ -8,7 +8,6 @@ sudo apt update
 sudo apt install nodejs npm wget nano git lua5.3
 
 # Forward ports
-sudo npm install -g localtunnel
 sudo chmod +x ./forward.sh
 sudo ./forward.sh &
 
