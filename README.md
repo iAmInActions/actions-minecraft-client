@@ -1,6 +1,8 @@
 # actions-minecraft-client
 Runs MultiMC in your browser using GitHub Actions
 
+# THIS PROJECT IS ONLY AN EXPERIMENT AND HAS THEREFOR BEEN DISABLED
+
 # Where can I access this?
 Click on of these links:  https://actions-minecraft-client.loca.lt/vnc.html
 (in case forward crashes) https://actions-minecraft-client-mirror.loca.lt/vnc.html
